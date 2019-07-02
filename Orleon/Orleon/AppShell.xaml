@@ -6,14 +6,19 @@
        mc:Ignorable="d"
        xmlns:local="clr-namespace:Orleon.Views"
        Title="Orleon"
-       x:Class="Orleon.AppShell">
+       x:Class="Orleon.AppShell"
+       BackgroundColor="#111111"
+       ForegroundColor="White"
+       TitleColor="White"
+       DisabledColor="#B4FFFFFF"
+       UnselectedColor="#95FFFFFF">
 
     <!-- 
         Styles and Resources 
     -->
     <Shell.Resources>
         <ResourceDictionary>
-            <Color x:Key="NavigationPrimary">#2196F3</Color>
+            <Color x:Key="NavigationPrimary">#111111</Color>
             <Style x:Key="BaseStyle" TargetType="Element">
                 <Setter Property="Shell.BackgroundColor" Value="{StaticResource NavigationPrimary}" />
                 <Setter Property="Shell.ForegroundColor" Value="White" />
